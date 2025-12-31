@@ -21,3 +21,6 @@ class CircleShape(pygame.sprite.Sprite):
     def collides_with(self, other):
         distance = pygame.Vector2.distance_to(self.position, other.position)
         return distance <= self.radius + other.radius
+    
+    def set_velocity(self, velocity):
+        self.velocity = velocity
