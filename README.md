@@ -3,6 +3,7 @@
 A project in pygame to re-create iconic Asteroids game
 
 wasd - move
+
 space - shoot
 
 
